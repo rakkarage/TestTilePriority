@@ -1,6 +1,11 @@
-[gd_scene format=3 uid="uid://dy04j08kbrse1"]
+[gd_scene load_steps=3 format=3 uid="uid://dy04j08kbrse1"]
+
+[ext_resource type="TileSet" uid="uid://cjn2ri268c5yx" path="res://TileSet.tres" id="1_vj1ik"]
+[ext_resource type="Script" path="res://Test.gd" id="2_6t1br"]
 
 [node name="Test" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource("1_vj1ik")
 format = 2
+script = ExtResource("2_6t1br")
