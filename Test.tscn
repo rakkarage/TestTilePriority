@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://dy04j08kbrse1"]
 
-[ext_resource type="TileSet" uid="uid://cjn2ri268c5yx" path="res://TileSet.tres" id="1_vj1ik"]
-[ext_resource type="Script" path="res://Test.gd" id="2_6t1br"]
+[ext_resource type="TileSet" uid="uid://cjn2ri268c5yx" path="res://TileSet.tres" id="1_py40w"]
+[ext_resource type="Script" path="res://Test.gd" id="2_cv2yk"]
 
 [node name="Test" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource("1_vj1ik")
+tile_set = ExtResource("1_py40w")
 format = 2
-script = ExtResource("2_6t1br")
+script = ExtResource("2_cv2yk")
