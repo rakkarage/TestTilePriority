@@ -12,15 +12,5 @@ enum Layer {
 	Edge
 }
 
-enum Tile {
-	Cliff,
-	Doodad,
-	Edge,
-	Light,
-	LightDebug,
-	Outside,
-	Rubble
-}
-
 func _ready():
 	pass
